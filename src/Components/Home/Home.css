@@ -1,0 +1,44 @@
+.home {
+    height: 100vh;
+    background-color: #1abc9c;
+    flex-direction: column;
+}
+.home h1 {
+    font-size: 4rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.home .icon {
+    position: relative;
+
+}
+.home .icon::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    top: 50%;
+    right: 150%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.home .icon::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    top: 50%;
+    left: 150%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}

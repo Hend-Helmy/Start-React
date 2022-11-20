@@ -1,0 +1,43 @@
+.about {
+    background-color: #1abc9c;
+    height: 100vh;
+}
+.about h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.about .icon {
+    position: relative;
+}
+.about .icon::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    top: 50%;
+    right: 150%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.about .icon::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    top: 50%;
+    left: 150%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.about p{
+    font-size: 1.25rem;
+}
