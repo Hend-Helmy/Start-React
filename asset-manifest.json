@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Start-React/static/css/main.f0ddc337.css",
-    "main.js": "/Start-React/static/js/main.7060ddd1.js",
+    "main.js": "/Start-React/static/js/main.5fec44a6.js",
     "static/media/fa-solid-900.ttf": "/Start-React/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
     "static/media/fa-brands-400.ttf": "/Start-React/static/media/fa-brands-400.f9ee61fab3c11e2f3ed3.ttf",
     "static/media/fa-solid-900.woff2": "/Start-React/static/media/fa-solid-900.66104b766c3d0462b3c5.woff2",
@@ -19,10 +19,10 @@
     "static/media/fa-v4compatibility.woff2": "/Start-React/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
     "index.html": "/Start-React/index.html",
     "main.f0ddc337.css.map": "/Start-React/static/css/main.f0ddc337.css.map",
-    "main.7060ddd1.js.map": "/Start-React/static/js/main.7060ddd1.js.map"
+    "main.5fec44a6.js.map": "/Start-React/static/js/main.5fec44a6.js.map"
   },
   "entrypoints": [
     "static/css/main.f0ddc337.css",
-    "static/js/main.7060ddd1.js"
+    "static/js/main.5fec44a6.js"
   ]
 }
