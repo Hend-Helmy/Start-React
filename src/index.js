@@ -19,9 +19,10 @@ const router=  createBrowserRouter([
     {path:'home', element:<Home/>},
     {path:'portfolio', element:<Portfolio/>},
     {path:'About',element: <About/>},
-    {path:'contact', element:<Contact/>}
+    {path:'contact', element:<Contact/>},
+    {path:'*',element:<Home/>}
   ]},
-  {path:'*',element:<div className='d-flex justify-content-center align-items-center'> <h2 className='text-center'> Error Page</h2></div>}
+  
 ])
 
 
